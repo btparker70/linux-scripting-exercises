@@ -5,9 +5,8 @@
 # date 2022/2/23
 #############################################
 
-# writing a script to generate 15 files
+# A script that takes a number as an input and reverses it out to the user
 
-for i in {1..15}
-do
-  touch brianparker-scripting-activity$i.sh
-done
+echo "What number would you like reversed?"
+read input
+echo $input | rev
